@@ -1,0 +1,22 @@
+.navbar-lewagon {
+  justify-content: space-between;
+  background: white;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.btn {
+  background: #FF1493;
+  color: white;
+  border-radius: 7px;
+}
+
+.btn:hover {
+  background: #FF008A;
+}

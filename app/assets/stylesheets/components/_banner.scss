@@ -1,0 +1,29 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 52px;
+  letter-spacing: 6px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#delete a {
+  color: #A9A9A9;
+  text-decoration: none;
+}
+
+#delete a:hover {
+  color: #696969 ;
+  text-decoration: none;
+  text-weight: bold;
+}
+
+
+

@@ -1,0 +1,9 @@
+<div class="container mt-5 cards">
+    <% @cocktails.each do |cocktail| %>
+    <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/breakfast.jpg)">
+      <%= link_to "#{cocktail.name}", cocktail_path(cocktail[:id])%>
+    </div>
+    <% end %>
+</div>
+
+
