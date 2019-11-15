@@ -1,4 +1,5 @@
-<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://timeincsecure-a.akamaihd.net/rtmp_uds/474428695/201806/1980/474428695_5796352796001_5796343805001-vs.jpg?pubId=474428695&videoId=5796343805001);">
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('<%= cl_image_tag @cocktail.photo.key, height: 300, width: 400, crop: :fill %>
+')">
   <div class="container">
     <h1><%= @cocktail.name %></h1>
   </div>
