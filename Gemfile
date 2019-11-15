@@ -29,6 +29,7 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 gem 'dotenv-rails', groups: [:development, :test]
+
 gem 'cloudinary', '~> 1.12.0'
 
 # Use Redis adapter to run Action Cable in production
